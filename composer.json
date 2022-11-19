@@ -1,8 +1,8 @@
 {
-	"name": "besteadfast/craft-preparse-field",
+	"name": "elementworks/craft-preparse-field",
 	"description": "A fieldtype that parses Twig when an element is saved and saves the result as plain text.",
 	"type": "craft-plugin",
-	"version": "2.0.0",
+	"version": "2.1.0",
 	"keywords": [
 		"craft",
 		"cms",
@@ -13,11 +13,15 @@
 		"twig"
 	],
 	"support": {
-		"docs": "https://github.com/besteadfast/craft-preparse-field/blob/master/README.md",
-		"issues": "https://github.com/besteadfast/craft-preparse-field/issues"
+		"docs": "https://github.com/elementworks/craft-preparse-field/blob/master/README.md",
+		"issues": "https://github.com/elementworks/craft-preparse-field/issues"
 	},
 	"license": "MIT",
 	"authors": [
+		{
+			"name": "Steve Rowling",
+			"homepage": "https://www.springworks.co.uk/"
+		},
 		{
 			"name": "Steadfast Design Firm",
 			"homepage": "https://www.steadfastdesignfirm.com/"
@@ -43,7 +47,7 @@
 		"schemaVersion": "1.0.5",
 		"hasCpSettings": false,
 		"hasCpSection": false,
-		"changelogUrl": "https://github.com/besteadfast/craft-preparse-field/blob/master/CHANGELOG.md",
+		"changelogUrl": "https://github.com/elementworks/craft-preparse-field/blob/master/CHANGELOG.md",
 		"components": {
 			"preparseFieldService": "besteadfast\\preparsefield\\services\\PreparseFieldService"
 		},
