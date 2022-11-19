@@ -208,6 +208,11 @@ class PreparseField extends Plugin
      */
     private function resetUploads()
     {
+        // Don't reset file uploads if we are uploading from a front end form
+        if (Craft::$app->getRequest->isSiteRequest) {
+            return;
+        }
+        
         $_FILES = [];
         UploadedFile::reset();
     }
